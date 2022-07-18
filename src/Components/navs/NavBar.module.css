@@ -1,0 +1,16 @@
+.nav-flex{
+    display: flex;
+    /* background-color: red; */
+    width: 100%;
+    align-items: center;
+}
+.center-section{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+}
+.right-nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}

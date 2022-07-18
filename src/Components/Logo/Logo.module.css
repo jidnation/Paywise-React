@@ -1,0 +1,18 @@
+.logo-wrapper{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+}
+.title{
+    color: #fff;
+    font-size: 20px;
+
+}
