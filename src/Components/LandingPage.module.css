@@ -1,14 +1,14 @@
 .landing-page {
     display: flex;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .top-section {
     background-color: #309975;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     padding: 0.5em 1em 0;
     display: flex;
 }
@@ -43,7 +43,7 @@
 }
 
 .text-part {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .divider {
@@ -55,7 +55,7 @@
 .next {
     color: #fff;
     font-weight: 800;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .spacer {
@@ -66,7 +66,7 @@
 .label {
     color: #fff;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .right-section {
@@ -90,4 +90,181 @@
 .download {
     width: 200px;
     height: 80px;
+}
+
+.card-section {
+    padding: 3em 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 60em;
+}
+
+.offer {
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #575757;
+    margin: 1em 0 5em;
+}
+
+
+.btn {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5em;
+}
+
+.prop-list {
+    margin: 1em 2em 1em 0;
+}
+
+.prop+.prop {
+    margin-top: 1.2em;
+}
+
+.card-box {
+    margin-bottom: 1.8rem;
+}
+
+.prop {
+    font-size: 10px;
+    color: #575757;
+    font-weight: 600;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.card-balance {
+    margin-top: 1.5rem;
+}
+
+.balance {
+    color: #20656f;
+    font-size: 12px;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 0.4em;
+}
+
+.price-change-section {
+    height: 50vh;
+    background-color: #4DAC6C;
+    padding: 4% 15px;
+
+}
+
+.price-change-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+
+.price-left {
+    flex: 1;
+    display: flex;
+}
+
+.price-left-wrapper {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.price-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5em 2%;
+}
+
+.price-rate-change {
+    margin-top: 2rem;
+}
+
+.price-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rate-row {
+    display: flex;
+    margin: 0 1em;
+}
+
+.price-row {
+    margin-bottom: 1.5em;
+}
+
+.price {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 0.3em;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: 180px;
+    margin: 5px 0px 1em;
+    /* background-color: #fff; */
+}
+
+.services-section {
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-info {
+    max-width: 18rem;
+    text-align: center;
+}
+
+.bank-info-session {
+    display: flex;
+    max-width: 50em;
+    height: 50vh;
+    margin-top: 1em;
+}
+
+.bank-left-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bank-mid-part {
+    flex: 1;
+    display: flex;
+}
+
+.bank-right-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-wrapper {
+    max-width: 180px;
+    margin: 1em 0;
+}
+
+.card-wrapper {
+    max-width: 250px;
 }
