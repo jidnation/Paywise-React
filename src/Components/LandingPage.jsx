@@ -296,6 +296,56 @@ function LandingPage() {
             </div>
           </div>
         </div>
+        <footer>
+          <div className={style["footer-wrapper"]}>
+            <div className={style["footer-body"]}>
+              <div className={style.fLeft}>
+                <Logo />
+                <div className={style.sub}>
+                  <CustomText size="13px" weight="500">
+                    Subscribe to keep up with the latest news
+                  </CustomText>
+                </div>
+                <div className={style["input-field"]}>
+                  <div className={style["email-field"]}>
+                    <TextInput
+                      placeholder="enter your email..."
+                      fillColor="white"
+                      small
+                    ></TextInput>
+                  </div>
+                  <div className={style.sendbtn}>icon</div>
+                </div>
+                <div className={style.agree}>
+                  <CustomText size="10px" weight="300">
+                    by submitting this form, you acknowledge that you have the
+                    terms of our Privacy Statement
+                  </CustomText>
+                </div>
+              </div>
+              <div className={style.fRight}>
+                <ul className={style.solutions}>
+                  <li className={style.tab}>MasterCard</li>
+                  <li className={style.tab}>Loius Vuitton</li>
+                  <li className={style.tab}>Gillette</li>
+                  <li className={style.tab}>Apple</li>
+                  <li className={style.tab}>General Electric</li>
+                </ul>
+                <ul className={style.solutions}>
+                  <li className={style.tab}>Home</li>
+                  <li className={style.tab}>About</li>
+                  <li className={style.tab}>Services</li>
+                  <li className={style.tab}>Contact</li>
+                  <li className={style.tab}>Terms and Conditions</li>
+                </ul>
+              </div>
+            </div>
+            <div className={style["copy-right"]}>
+              <CustomText size="9px" weight="300">Copyright @ JidNation 2022</CustomText>
+              <div className={style["social-links"]}></div>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

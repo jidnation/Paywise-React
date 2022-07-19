@@ -245,7 +245,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .bank-mid-part {
@@ -257,7 +257,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .text-wrapper {
@@ -267,4 +267,91 @@
 
 .card-wrapper {
     max-width: 250px;
+}
+
+footer {
+    width: 100%;
+    background-color: #55B169;
+    display: flex;
+}
+
+.footer-wrapper {
+    padding: 1em 5%;
+    margin: 0 auto;
+    width: 100%;
+    /* background-color: red; */
+    max-width: 80rem;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.sub {
+    width: 200px;
+    margin: 0.8em 0;
+}
+
+.email-field {
+    min-width: 220px;
+    margin-right: 10px;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sendbtn {
+    width: 60px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dad873;
+
+}
+
+.agree {
+    max-width: 220px;
+    margin-bottom: 0.8em;
+}
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+}
+
+.fRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+.solutions {}
+
+.tab {
+    color: white;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.tab+.tab {
+    margin-top: 0.6em;
 }
